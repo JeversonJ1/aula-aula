@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border,border-box
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(red, green, blue);
+    color:black
+}
+img{
+    width:100px;
+    height:100px
+}
+.loo{
+    width: 100px;
+    height:70px;
+}
+.redes{
+    width:50px;
+    height:35px;
+    
+
+}
