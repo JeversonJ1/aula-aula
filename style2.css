@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border,border-box ;
+}
+body{
+font-family:Arial, Helvetica, sans-serif;
+background-color:rgb(red, green, blue) ;
+color: black;
+}
+header{
+    position:flex;
+    display:flex;
+    justify-content: ;
+
+}
+header ul{
+
+}
+header nav a{
+
+}
+
+img{
+
+}
+
+
+
