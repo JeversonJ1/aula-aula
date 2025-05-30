@@ -8,17 +8,50 @@ body{
     background-color:rgb(red, green, blue);
     color:black
 }
+header{
+    position:relative ;
+    display:flex;
+    justify-content:space-around ;
+    align-items: baseline;
+    background-color:green;
+    color:white;
+    padding:10px 0;
+    text-align:center;
+    height: 200px;
+}
+header ul{
+    position: absolute;
+    right: 5%;
+    top:3%;
+    right:15%;
+    display:flex;
+    list-style:none;
+    
+   
+}
+header nav a{
+    text-decoration:none;
+    color: white;
+    padding: 10px 15px;
+    transition: backgroud-color 0.3s;
+    font-size: 1.5rem;
+}
+   
 img{
     width:100px;
     height:100px
 }
-.loo{
+header nav a:hover{
+    background-color: blue;
+}
+
+.logo{
+    left: 50%;
     width: 100px;
     height:70px;
 }
+
 .redes{
     width:50px;
     height:35px;
-    
-
 }
