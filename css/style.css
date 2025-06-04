@@ -24,6 +24,9 @@ ul{
     display: flex;
     list-style: none;
 }
+.navbar-mobile{
+    display: none;
+}
 
 
 a{

@@ -1,8 +1,35 @@
 
   @media (max-width: 768px) {
-    
-
-  }
+    .navbar-desktop{
+        display: none;
+    }
+}
+.navbar-mobile{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  justify-content: space-evenly;
+  padding: 10px;
+  height: 60px;
+  background-color: #a0c5f0;
+}
   @media (max-width: 460px) {
 
   }
+  .botao-fluante{
+    position: fixed;
+    bottom: 20px;
+    right:20px ;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 50%;
+    width:60px;
+    height:60px ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgb(red, green, blue);
+  }
+
+  
