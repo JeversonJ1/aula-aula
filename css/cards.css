@@ -1,0 +1,20 @@
+.cards{
+    padding: 2rem 0;
+}
+.cards_grid{
+    display:flex;
+    flex-wrap: wrap;/*jpga para linha seguinte*/
+    justify-content:center;
+    gap:1.5rem;
+}
+.card-item{
+    flex-grow: 1;/*ocupa todo o espaço*/
+    flex-shrink: 1;/*ele redimenciona para caber */
+    flex-basis: 280px;/*tamanho/largura padrão*/
+    background-color: var(--cor-fundo-primaria);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align:center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+}

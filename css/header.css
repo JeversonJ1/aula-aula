@@ -1,0 +1,67 @@
+ul{
+    display: flex;
+    list-style: none;
+}
+
+
+
+.logo{
+    width: 80px;
+    animation: fadein 1s ease-in forwards;
+}
+.logo:hover{
+    animation: pulse 1s infinite;
+}
+.redes{
+    width: 1.5rem;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:green;
+    font-size:1.5rem;
+    text-shadow: 2px 4px gray;
+}
+
+
+a:hover{
+    cursor: url("cursores/clique.svg"),auto;
+}
+
+
+header{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #0974ee9a;
+}
+.menu-icon{
+    display: none;
+    cursor:pointer;
+}
+.linha-menu-top,.linha-menu-bottom{
+    background-color: #fff;
+    height: 5px;
+    width:50px;
+    margin-left: 10px;
+    }
+    .linha-menu-center{
+        background-color: #2f11d6;
+        height: 5px;
+        margin-top:  10px;
+        margin-left:-10px;
+
+    }
+    .menu-toglle{
+        display:none
+    }
+    body{
+        margin:0 ;
+      
+    }
+   

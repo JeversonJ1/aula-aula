@@ -1,0 +1,10 @@
+:root{
+    --cor-texto-primario:blue;
+    --cor-texto-secundario:red;
+    --cor-fundo-primario:green;
+    --cor-fundo-secundario:black;
+    --fonte-principal:`arial´,sans-serif;
+    --espacamento:irem;
+    --tamanho-fonte:16px
+
+}
