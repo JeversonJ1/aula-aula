@@ -1,0 +1,17 @@
+.hero{
+    position: relative;
+    text-align: center;
+    width:97% ;
+    margin:1rem ;
+    padding: 8rem 1rem;
+    border-left:black solid 1px;
+    border-bottom: black solid 3px;
+    border-right:black solid 1px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.hero-image{
+    width: 100%;
+    height: auto;
+    z-index:1;
+}
