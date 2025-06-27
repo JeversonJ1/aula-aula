@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>introdução ao JS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <img src="img/logo.svg" alt="Logo da página" class="logo">
+        <nav class="navbar-mobile">
+                <a href="#"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-info fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                <a href="#"><i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i></a>
+            </nav> 
+        </nav>
+        
+        <nav class="navbar-desktop">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="servicos.html">Serviços</a>
+        </nav>
+
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="img/facebook.svg" alt="link do facebook" class="redes">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/instagram.svg" alt="link do instagram" class="redes">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/github.svg" alt="link do github" class="redes">
+                </a>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <form id="formulario">
+            <h1>verificar idade</h1>
+            <label for="idade">idade</label>
+            <input type="number"id="idade" name="idade" required>
+            <button type="submit"> verificar</button>
+        </form>
+    <div id="resultados"></div>
+</form> 
+    </section>
     <script src="js/intro.js"></script>
 
     
